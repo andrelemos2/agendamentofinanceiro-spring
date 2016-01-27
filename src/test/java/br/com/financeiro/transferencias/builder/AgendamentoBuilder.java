@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 import br.com.transferencias.model.Agendamento;
-import br.com.transferencias.model.CalculoTaxa;
-import br.com.transferencias.model.TipoOperacao;
+import br.com.transferencias.model.calculo.CalculoTaxa;
+import br.com.transferencias.model.calculo.TipoOperacao;
 
 public class AgendamentoBuilder {
 

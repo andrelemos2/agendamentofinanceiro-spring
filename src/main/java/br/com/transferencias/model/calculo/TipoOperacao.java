@@ -1,4 +1,9 @@
-package br.com.transferencias.model;
+package br.com.transferencias.model.calculo;
+
+import br.com.transferencias.model.taxa.TaxaA;
+import br.com.transferencias.model.taxa.TaxaB;
+import br.com.transferencias.model.taxa.TaxaC;
+import br.com.transferencias.model.taxa.TaxaD;
 
 public enum TipoOperacao {
 	A("Taxa A") {

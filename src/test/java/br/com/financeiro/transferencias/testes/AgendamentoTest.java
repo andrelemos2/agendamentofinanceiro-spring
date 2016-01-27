@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import br.com.financeiro.transferencias.builder.AgendamentoBuilder;
 import br.com.transferencias.model.Agendamento;
-import br.com.transferencias.model.TipoOperacao;
+import br.com.transferencias.model.calculo.TipoOperacao;
 
 public class AgendamentoTest {
 	/*

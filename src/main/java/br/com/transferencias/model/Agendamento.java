@@ -3,6 +3,9 @@ package br.com.transferencias.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import org.springframework.format.annotation.DateTimeFormat;
+
+import br.com.transferencias.model.calculo.TipoOperacao;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

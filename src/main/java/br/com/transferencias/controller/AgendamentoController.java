@@ -3,7 +3,7 @@ package br.com.transferencias.controller;
 import br.com.transferencias.dao.AgendamentoDAO;
 import br.com.transferencias.dao.filter.AgendamentoFilter;
 import br.com.transferencias.model.Agendamento;
-import br.com.transferencias.model.TipoOperacao;
+import br.com.transferencias.model.calculo.TipoOperacao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

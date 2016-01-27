@@ -3,7 +3,7 @@ package br.com.transferencias.dao.filter;
 
 import java.math.BigDecimal;
 
-import br.com.transferencias.model.TipoOperacao;
+import br.com.transferencias.model.calculo.TipoOperacao;
 
 /**
  * Created by andreasl on 22/12/15.

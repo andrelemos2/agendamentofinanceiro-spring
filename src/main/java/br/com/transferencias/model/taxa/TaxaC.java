@@ -1,6 +1,10 @@
-package br.com.transferencias.model;
+package br.com.transferencias.model.taxa;
 
 import java.math.BigDecimal;
+
+import br.com.transferencias.model.Agendamento;
+import br.com.transferencias.model.calculo.CalculoTaxa;
+import br.com.transferencias.model.intervalo.IntervaloDias;
 /*
 Operacoes do tipo C tem uma taxa regressiva conforme a data de agendamento:
             maior que 30 dias da data de cadastro ­ 1.2
@@ -19,7 +23,7 @@ public class TaxaC implements CalculoTaxa {
 	public BigDecimal calculandoValor(Agendamento agendamento) {
 
 		BigDecimal porcentagemAdicional = BigDecimal.ONE;
-
+		
 		if(agendamento.getIntervaloDias() <= 5)
 			porcentagemAdicional = new BigDecimal("8.3");
 			else if (agendamento.getIntervaloDias() <= 10)

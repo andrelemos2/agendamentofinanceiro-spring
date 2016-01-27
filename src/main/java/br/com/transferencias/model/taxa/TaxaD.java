@@ -1,6 +1,10 @@
-package br.com.transferencias.model;
+package br.com.transferencias.model.taxa;
 
 import java.math.BigDecimal;
+
+import br.com.transferencias.model.Agendamento;
+import br.com.transferencias.model.calculo.CalculoTaxa;
+import br.com.transferencias.model.calculo.TipoOperacao;
 
 /*
 Operacoes do tipo D tem a taxa igual a A, B ou C dependendo do valor da transferência.
